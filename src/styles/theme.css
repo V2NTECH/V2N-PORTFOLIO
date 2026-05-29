@@ -1,51 +1,54 @@
+@theme {
+  --color-v2n-ice: #b1bfe2;
+  --color-v2n-primary: #0430a2;
+  --color-v2n-navy: #1e3367;
+  --color-v2n-bg: #050b14;
+  --color-v2n-gradient-01-end: #97adff;
+  --color-v2n-g02-1: #032886;
+  --color-v2n-g02-2: #03216f;
+  --color-v2n-g02-3: #021443;
+  --color-v2n-g02-4: #01123c;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --v2n-ice: #b1bfe2;
+  --v2n-primary: #0430a2;
+  --v2n-navy: #1e3367;
+  --v2n-bg: #050b14;
+  --v2n-ceo-name: #458fff;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --v2n-gradient-01: linear-gradient(180deg, #ffffff 0%, #97adff 94%);
+  --v2n-gradient-02: linear-gradient(
+    180deg,
+    #0430a2 0%,
+    #032886 9%,
+    #03216f 35%,
+    #021443 74%,
+    #01123c 92%
+  );
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
+  --v2n-glass-bg: rgba(30, 51, 103, 0.22);
+  --v2n-glass-bg-strong: rgba(30, 51, 103, 0.38);
+  --v2n-glass-border: rgba(177, 191, 226, 0.14);
+  --v2n-glass-highlight: rgba(255, 255, 255, 0.06);
+  --v2n-glass-blur: 20px;
+
+  --v2n-glow-primary: rgba(4, 48, 162, 0.55);
+  --v2n-glow-ice: rgba(151, 173, 255, 0.4);
+  --v2n-glow-soft: 0 0 80px rgba(151, 173, 255, 0.12);
+
+  --v2n-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --v2n-ease-spring: cubic-bezier(0.34, 1.45, 0.64, 1);
+
+  --sans: var(--font-sans);
+  --heading: var(--font-sans);
+
+  color-scheme: dark;
+  color: var(--v2n-ice);
+  background: var(--v2n-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
 }
