@@ -621,38 +621,6 @@
   font-size: clamp(3rem, 15cqw, 9.5rem);
 }
 
-/* ─── Projetos (transição pós-pin) ─── */
-.projects-section {
-  min-height: 100svh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: clamp(4rem, 10vh, 6rem) 1.5rem;
-  background: #050b14;
-  border-top: 1px solid rgba(177, 191, 226, 0.08);
-}
-
-.projects-section__inner {
-  max-width: 40rem;
-  text-align: center;
-}
-
-.projects-section__title {
-  font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -0.02em;
-  margin: 0 0 1.25rem;
-}
-
-.projects-section__text {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.7;
-  font-weight: 300;
-  color: rgba(177, 191, 226, 0.75);
-}
-
 /* Mobile */
 @media (max-width: 768px) {
   .ceo-pin__intro-title {

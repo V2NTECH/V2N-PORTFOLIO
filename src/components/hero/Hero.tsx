@@ -47,7 +47,7 @@ export function Hero() {
         </p>
 
         <div className="hero-cta-wrap hero-enter hero-enter--4 mt-9 sm:mt-11">
-          <a href="#orcamento" className="hero-cta glass-panel inline-flex rounded-full px-9 py-3.5 text-sm font-medium tracking-[0.02em] text-v2n-ice sm:px-11 sm:py-4">
+          <a href="#contato" className="hero-cta glass-panel inline-flex rounded-full px-9 py-3.5 text-sm font-medium tracking-[0.02em] text-v2n-ice sm:px-11 sm:py-4">
             Faça seu orçamento
           </a>
         </div>

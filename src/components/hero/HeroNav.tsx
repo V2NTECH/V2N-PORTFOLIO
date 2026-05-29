@@ -5,8 +5,8 @@ type NavLink = { label: string; href: string; active?: boolean }
 const navLinks: NavLink[] = [
   { label: 'Home', href: '#', active: true },
   { label: 'Quem Somos', href: '#quem-somos' },
-  { label: 'Liderança', href: '#quem-somos' },
   { label: 'Projetos', href: '#projetos' },
+  { label: 'Contato', href: '#contato' },
 ]
 
 export function HeroNav() {
